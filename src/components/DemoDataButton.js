@@ -62,7 +62,7 @@ function DemoDataButton() {
             <Loader className="w-8 h-8 animate-spin text-blue-600" />
             <div className="text-center">
               <h3 className="text-lg font-semibold text-gray-800">Generating Demo Data</h3>
-              <p className="text-gray-600">Please wait while we reset all tables and refreshing dashboard...</p>
+              <p className="text-gray-600">Please wait while we reset all tables and refresh dashboard...</p>
             </div>
           </div>
         </div>
