@@ -85,7 +85,8 @@ function RestockForm({ onRequestSubmitted }) {
       setSubmitStatus('success');
       setFormData({ product_id: '', quantity: '', requested_by: '' });
       setErrors({});
-      
+      // Simulate a delay to allow backend processing
+      // await new Promise(resolve => setTimeout(resolve, 3000));
       // Notify parent component
       if (onRequestSubmitted) {
         onRequestSubmitted();
